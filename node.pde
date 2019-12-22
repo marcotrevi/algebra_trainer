@@ -18,11 +18,9 @@ class node {
 
   node(int type) {
     this.type = type;
-    value = set_value();
   }
 
   String set_value() {
-    // recursively evaluates tree up to this node
     String v = "";
     switch(type) {
     case 0:
