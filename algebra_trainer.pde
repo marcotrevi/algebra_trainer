@@ -7,6 +7,7 @@ algebraic formula generator
  */
 
 utility U = new utility();
+math M = new math();
 
 node root;
 node N1 = new node(0);
